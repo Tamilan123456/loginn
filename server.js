@@ -122,6 +122,6 @@ app.get("/UserData", async (req, res) => {
 importData().then(() => console.log("✔️ Data import completed"));
 
 // Start server
-app.listen(process.ev.port, () => {
+app.listen(process.ev.PORT, () => {
   console.log("Server running on port 4000");
 });
